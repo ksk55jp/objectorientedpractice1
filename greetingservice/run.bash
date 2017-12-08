@@ -35,4 +35,5 @@ fi
 java_main_class=greetingservice/Launcher
 echo "[DEBUG] I'm launching java program $java_main_class"
 java --class-path .. $java_main_class
+echo "[DEBUG] Java exit status($?)"
 exit 0
